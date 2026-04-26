@@ -1,10 +1,9 @@
-// Centralne miejsce na wszystkie dane strony - łatwo edytujesz tutaj bez grzebania w JSX.
 
 export const wedding = {
   bride: 'Kinga',
   groom: 'Michał',
   year: 2027,
-  // Format ISO - lokalna strefa Warszawy
+  // Data i godzina ceremonii (na potrzeby kalendarza i odliczania)
   ceremonyDateTime: '2027-04-24T16:00:00',
   // Koniec wesela (na potrzeby kalendarza i widoku "po ślubie")
   endDateTime: '2027-04-25T04:00:00',
@@ -12,11 +11,7 @@ export const wedding = {
   rsvpDeadline: '28 lutego 2027',
 };
 
-// === TALLY RSVP ===
-// 1. Załóż konto na https://tally.so (darmowe, bez karty)
-// 2. Stwórz formularz z polami opisanymi w README/CHANGES.md
-// 3. Opublikuj formularz - dostaniesz URL np. https://tally.so/r/abc123
-//    "abc123" to Twoje formId. Wklej je poniżej zamiast PASTE_TALLY_FORM_ID_HERE.
+
 export const tally = {
   formId: 'ODjb1g',
 };
