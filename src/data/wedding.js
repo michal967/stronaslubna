@@ -60,7 +60,7 @@ export const faqData = [
   {
     question: 'Czy ceremonia i wesele odbywają się w tym samym miejscu?',
     answer:
-      'Nie. Ceremonia ślubna odbędzie się w kościele, natomiast przyjęcie weselne w sali weselnej. Dokładne adresy znajdziecie w zakładce "Jak do nas dojechać".',
+      'Nie. Ceremonia ślubna odbędzie się w kościele, natomiast przyjęcie weselne w sali weselnej. Dokładne adresy znajdziecie w zakładce "Jak dojechać".',
   },
   {
     question: 'Czy będzie zapewniony transport między kościołem a salą?',
@@ -99,17 +99,12 @@ export const faqData = [
   {
     question: 'Do kiedy należy potwierdzić obecność?',
     answer:
-      'Będziemy bardzo wdzięczni za potwierdzenie przybycia do 28 lutego 2027 roku. Można to zrobić telefonicznie lub mailowo – dane znajdziecie w zakładce Kontakt.',
+      'Będziemy bardzo wdzięczni za potwierdzenie przybycia do 28 lutego 2027 roku. Można to zrobić telefonicznie lub mailowo – dane znajdziecie w zakładce Kontakt, a take poprzez formularz w zakładce RSVP.',
   },
   {
     question: 'Czy na miejscu będzie parking?',
     answer:
       'Tak. Przy kościele znajduje się parking wzdłuż ulicy. Sala weselna dysponuje dużym placem parkingowym, na którym będzie można zostawić samochód.',
-  },
-  {
-    question: 'Czy można robić zdjęcia podczas ceremonii?',
-    answer:
-      'Podczas ceremonii w kościele prosimy o pozostawienie fotografowania naszemu fotografowi. Po zakończeniu ceremonii oraz podczas przyjęcia zachęcamy do robienia zdjęć i uwieczniania wspólnych chwil.',
   },
 ];
 
@@ -117,7 +112,7 @@ export const navLinks = [
   { id: 'welcome', label: 'Zaproszenie' },
   { id: 'countdown-section', label: 'Odliczanie' },
   { id: 'timeline', label: 'Plan dnia' },
-  { id: 'venues', label: 'Miejsca' },
+  { id: 'venues', label: 'Jak dojechać' },
   { id: 'rsvp', label: 'RSVP' },
   { id: 'faq', label: 'FAQ' },
   { id: 'contact', label: 'Kontakt' },
