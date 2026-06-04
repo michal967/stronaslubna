@@ -611,7 +611,7 @@ const WeddingPage = () => {
           <h2 className="section-title">Kontakt</h2>
           <div className="contact-wrapper">
             <FloralDivider />
-            <p>W celu potwierdzenia przybycia prosimy o kontakt</p>
+            <p>W celu potwierdzenia przybycia prosimy o kontakt lub wypełnienie formularza.</p>
             <div className="contact-grid">
               {contacts.map((c) => (
                 <div className="contact-person" key={c.name}>
