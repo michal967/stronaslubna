@@ -114,7 +114,7 @@ export const navLinks = [
   { id: 'timeline', label: 'Plan dnia' },
   { id: 'venues', label: 'Jak dojechać' },
   { id: 'rsvp', label: 'RSVP' },
-  { id: 'gallery', label: 'Galeria' },  
+  { id: 'gallery', label: 'Udostępnij zdjęcia' },  
   { id: 'faq', label: 'FAQ' },
   { id: 'contact', label: 'Kontakt' },
 ];

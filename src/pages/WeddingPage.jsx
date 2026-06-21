@@ -564,7 +564,7 @@ const WeddingPage = () => {
       {/* GALERIA */}
       <section className="wedding-section gallery" data-testid="gallery-section" id="gallery">
         <div className="container">
-          <h2 className="section-title">Galeria</h2>
+          <h2 className="section-title">Udostępnij zdjęcia</h2>
           <p className="rsvp-deadline">
             <strong>Podziel się</strong> z nami swoimi zdjęciami z tego wyjątkowego dnia!
           </p>
