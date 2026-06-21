@@ -561,6 +561,22 @@ const WeddingPage = () => {
         </div>
       </section>
 
+      {/* GALERIA */}
+      <section className="wedding-section gallery" data-testid="gallery-section" id="gallery">
+        <div className="container">
+          <h2 className="section-title">Galeria</h2>
+          <p className="rsvp-deadline">
+            <strong>Podziel się</strong> z nami swoimi zdjęciami z tego wyjątkowego dnia!
+          </p>
+          <a href="https://drive.google.com/drive/folders/17iaR4o4xq-bkPrtFHiTLAfZIG4dqYC4S?usp=share_link" target="_blank" rel="noopener noreferrer" className="btn btn-primary calendar-btn">
+              <p style={{ color: 'white' }}>
+                Dodaj zdjęcia
+              </p>
+          </a>
+          
+        </div>
+      </section>
+
       {/* Quote */}
       <section className="wedding-section quote" data-testid="quote-section">
         <div className="container">
@@ -573,6 +589,34 @@ const WeddingPage = () => {
             <div className="heart-decoration">
               <Heart size={32} strokeWidth={1.5} fill="currentColor" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="wedding-section faq" data-testid="faq-section" id="faq">
+        <div className="container">
+          <h2 className="section-title">Często zadawane pytania</h2>
+          <div className="faq-wrapper">
+            {faqData.map((item, index) => (
+              <div
+                key={index}
+                className={`faq-item ${activeFaq === index ? 'active' : ''}`}
+                data-testid={`faq-item-${index}`}
+              >
+                <button
+                  className="faq-question"
+                  onClick={() => toggleFaq(index)}
+                  data-testid={`faq-question-${index}`}
+                >
+                  {item.question}
+                  <span className="faq-toggle">{activeFaq === index ? '−' : '+'}</span>
+                </button>
+                <div className="faq-answer">
+                  <p>{item.answer}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

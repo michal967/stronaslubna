@@ -1484,3 +1484,10 @@ blockquote {
   .floating-rsvp span { display: none; }
   .rsvp-embed { padding: 0.6rem; }
 }
+
+.gallery .container {
+    display: flex;
+    flex-direction: column; /* Ustawia elementy w pionie */
+    align-items: center;    /* Centruje elementy w poziomie */
+    justify-content: center;
+}
