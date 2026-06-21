@@ -568,7 +568,7 @@ const WeddingPage = () => {
           <p className="rsvp-deadline">
             <strong>Podziel się</strong> z nami swoimi zdjęciami z tego wyjątkowego dnia!
           </p>
-          <a href="https://drive.google.com/drive/folders/17iaR4o4xq-bkPrtFHiTLAfZIG4dqYC4S?usp=share_link" target="_blank" rel="noopener noreferrer" className="btn btn-primary calendar-btn">
+          <a href="https://photos.app.goo.gl/g3A9LYdeENd7KrQ66" target="_blank" rel="noopener noreferrer" className="btn btn-primary calendar-btn">
               <p style={{ color: 'white' }}>
                 Dodaj zdjęcia
               </p>
