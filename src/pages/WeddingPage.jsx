@@ -621,34 +621,6 @@ const WeddingPage = () => {
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="wedding-section faq" data-testid="faq-section" id="faq">
-        <div className="container">
-          <h2 className="section-title">Często zadawane pytania</h2>
-          <div className="faq-wrapper">
-            {faqData.map((item, index) => (
-              <div
-                key={index}
-                className={`faq-item ${activeFaq === index ? 'active' : ''}`}
-                data-testid={`faq-item-${index}`}
-              >
-                <button
-                  className="faq-question"
-                  onClick={() => toggleFaq(index)}
-                  data-testid={`faq-question-${index}`}
-                >
-                  {item.question}
-                  <span className="faq-toggle">{activeFaq === index ? '−' : '+'}</span>
-                </button>
-                <div className="faq-answer">
-                  <p>{item.answer}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Contact */}
       <section className="wedding-section contact" data-testid="contact-section" id="contact">
         <div className="container">
