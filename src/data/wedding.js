@@ -87,11 +87,6 @@ export const faqData = [
       'Najwygodniejszą formą prezentu będzie koperta. Jeśli jednak ktoś chciałby podarować również drobny upominek, z pewnością sprawi nam to dużą przyjemność.',
   },
   {
-    question: 'Czy zapewniamy nocleg dla gości?',
-    answer:
-      'Nie organizujemy noclegów, jednak w pobliżu sali weselnej znajduje się kilka hoteli, z których można skorzystać według własnych preferencji.',
-  },
-  {
     question: 'Czy można zgłosić dietę specjalną?',
     answer:
       'Tak, oczywiście. Jeśli jesteście wegetarianami lub macie alergie pokarmowe, prosimy o informację podczas potwierdzania obecności – zadbamy o odpowiednie menu.',
